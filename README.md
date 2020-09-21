@@ -17,5 +17,7 @@ Research code to go along with,
 }
 ```
 
+Currently, only build setup is for Visual Studio 2017 under *build/vs15/nD_descriptor.sln*
+
 A copy of the accepted paper can be found at:
 https://cragl.cs.gmu.edu/selfsimilar/
