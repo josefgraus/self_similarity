@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+#*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+#*.so
+#*.dylib
+#*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+#*.lib
+#!**lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# IDE specific intermediates
+*.opendb
+*.db
+*.idb
+*.pdb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.suo
+*.log
+*.iobj
+*.ipdb
+*.ipch
+build/vs15/x64/
+build/vs15/.vs
+
+# Model precalculated eigenvectors/values
+*.lap_evecs
+*.lap_evals
+models/*
