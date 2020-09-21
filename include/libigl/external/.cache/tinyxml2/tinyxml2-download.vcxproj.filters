@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\047da145022316b25f4bde3e3890bc2c\tinyxml2-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\c739229218c400bbe81b6b5c55226064\tinyxml2-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\dac8bf7e22667891b8ac3b1e8579b22f\tinyxml2-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\tinyxml2\CMakeFiles\tinyxml2-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DD37A275-F974-3A3E-95C8-72962D024F28}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

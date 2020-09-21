@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/eigen-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/fd60a442e887a55efe67c098d2bfe20d/eigen-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/671ff9df8100e16f95ca3536bffdead1/eigen-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/eigen/CMakeFiles/070429c62b38ba8e74af254a8a03ac19/eigen-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"eigen-download"
+		],
+		"name" : "eigen-download"
+	}
+}

@@ -1,0 +1,934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD7E51E5-1DE7-3E63-9C33-060F7B136F92}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>pybind11-download</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-mkdir.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Creating directories for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/cmake/../external/pybind11
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/build/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Creating directories for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/cmake/../external/pybind11
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/build/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Creating directories for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/cmake/../external/pybind11
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/build/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Creating directories for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/cmake/../external/pybind11
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/build/pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-mkdir.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing download step (git clone) for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\external
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-download.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\pybind11-download-gitinfo.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing download step (git clone) for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\external
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-download.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\pybind11-download-gitinfo.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing download step (git clone) for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\external
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-download.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\pybind11-download-gitinfo.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing download step (git clone) for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\external
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-download.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\pybind11-download-gitinfo.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-update.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Performing update step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\external\pybind11
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-update.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Performing update step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\external\pybind11
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-update.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Performing update step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\external\pybind11
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-update.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Performing update step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\external\pybind11
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -P D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/tmp/pybind11-download-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-update.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-patch.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No patch step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-patch.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No patch step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-patch.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No patch step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-patch.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No patch step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-patch.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-configure.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No configure step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-configure.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No configure step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-configure.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No configure step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-configure.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No configure step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-configure.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-build.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No build step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-build.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No build step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-build.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No build step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-build.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No build step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-build.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-install.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No install step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-install.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No install step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-install.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No install step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-install.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No install step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-install.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-test.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">No test step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-test.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">No test step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-test.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">No test step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-test.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">No test step for 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd D:\Coding\libigl\build\pybind11-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/95cbdd6cb998859ce10bf26f34746322/pybind11-download-test.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\c6c683c32b85b8a56b6574bdb6fa6a67\pybind11-download-complete.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Completed 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)/pybind11-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/c6c683c32b85b8a56b6574bdb6fa6a67/pybind11-download-complete.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Completed 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)/pybind11-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/c6c683c32b85b8a56b6574bdb6fa6a67/pybind11-download-complete.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Completed 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)/pybind11-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/c6c683c32b85b8a56b6574bdb6fa6a67/pybind11-download-complete.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Completed 'pybind11-download'</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/$(Configuration)/pybind11-download-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/Coding/libigl/external/.cache/pybind11/pybind11-download-prefix/src/pybind11-download-stamp/$(Configuration)/pybind11-download-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/c6c683c32b85b8a56b6574bdb6fa6a67/pybind11-download-complete.rule;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-mkdir;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-download;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-update;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-patch;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-configure;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-build;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-install;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\src\pybind11-download-stamp\$(Configuration)\pybind11-download-test;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\f21b17051e3dbe5595e23d0dfd32d050\pybind11-download.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/f21b17051e3dbe5595e23d0dfd32d050/pybind11-download.rule;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/f21b17051e3dbe5595e23d0dfd32d050/pybind11-download.rule;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/f21b17051e3dbe5595e23d0dfd32d050/pybind11-download.rule;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/f21b17051e3dbe5595e23d0dfd32d050/pybind11-download.rule;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\$(Configuration)\pybind11-download-complete;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/libigl/external/.cache/pybind11 -BD:/Coding/libigl/external/.cache/pybind11 --check-stamp-file D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\RepositoryInfo.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/libigl/external/.cache/pybind11 -BD:/Coding/libigl/external/.cache/pybind11 --check-stamp-file D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\RepositoryInfo.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/libigl/external/.cache/pybind11 -BD:/Coding/libigl/external/.cache/pybind11 --check-stamp-file D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\RepositoryInfo.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Coding/libigl/external/.cache/pybind11 -BD:/Coding/libigl/external/.cache/pybind11 --check-stamp-file D:/Coding/libigl/external/.cache/pybind11/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/Coding/libigl/external/.cache/pybind11/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\ExternalProject.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\RepositoryInfo.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\3.13.2\CMakeSystem.cmake;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;D:\Coding\libigl\external\.cache\pybind11\pybind11-download-prefix\tmp\pybind11-download-cfgcmd.txt.in;D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Coding\libigl\external\.cache\pybind11\ZERO_CHECK.vcxproj">
+      <Project>{3223FCAD-6792-35B0-87CC-8EB6C2867830}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

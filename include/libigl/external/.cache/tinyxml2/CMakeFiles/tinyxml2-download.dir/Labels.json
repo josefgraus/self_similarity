@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/tinyxml2-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/dac8bf7e22667891b8ac3b1e8579b22f/tinyxml2-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/c739229218c400bbe81b6b5c55226064/tinyxml2-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tinyxml2/CMakeFiles/047da145022316b25f4bde3e3890bc2c/tinyxml2-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tinyxml2-download"
+		],
+		"name" : "tinyxml2-download"
+	}
+}

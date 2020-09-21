@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\unit_tests\unit_tests.h" />
+    <ClCompile Include="..\..\src\unit_tests\stroke_transfer\test_stroke_transfer.cpp">
+      <Filter>stroke_transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\geodesic_fan.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\stroke_transfer.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\surface_stroke.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\curve_unrolling.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\discrete_exponential_map.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\self_similarity\self_similarity_map.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\geometry.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\mesh.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\patch.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\shape_diameter_signature.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\shape_signature.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\constrained_relation_solver.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\algorithms\shortest_path.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\tests\intersection.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\threshold.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\experiments\stroke_transfer_exp.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Bezier.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\BSpline.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\CatmullRom.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Curve.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Vector.cpp">
+      <Filter>lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="stroke_transfer">
+      <UniqueIdentifier>{c9315aa7-6d30-4515-a197-780b03f5c08a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c442df76-0971-4e8f-b8fb-483cfe2b302d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\unit_tests\stroke_transfer\test_stroke_transfer.h">
+      <Filter>stroke_transfer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

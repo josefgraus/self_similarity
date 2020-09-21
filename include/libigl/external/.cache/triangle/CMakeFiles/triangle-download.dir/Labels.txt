@@ -1,0 +1,14 @@
+# Target labels
+ triangle-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/triangle-download
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4f06bbcbdce9c5eef8c8aa6e0bbff392/triangle-download.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/404107117c16518aa6edda4a0e2c9d48/triangle-download-complete.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-install.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-mkdir.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-download.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-update.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-patch.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-configure.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-build.rule
+D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-test.rule

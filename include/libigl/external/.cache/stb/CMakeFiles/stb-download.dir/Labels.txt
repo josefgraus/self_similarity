@@ -1,0 +1,14 @@
+# Target labels
+ stb-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/stb-download
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/6d85ce3fd55e3343eba5cce94b21eb03/stb-download.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/2a28d910b75d2c6d1ac08a2efb01710f/stb-download-complete.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-install.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-mkdir.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-download.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-update.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-patch.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-configure.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-build.rule
+D:/Coding/libigl/external/.cache/stb/CMakeFiles/76e26de35b50d4de1086694017a03968/stb-download-test.rule

@@ -1,0 +1,14 @@
+# Target labels
+ libigl-imgui-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/libigl-imgui-download
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/9a993c5a7946b3e1fde441532e50daaa/libigl-imgui-download.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/b7ca8d33e9ec1216367234ca33f37ba1/libigl-imgui-download-complete.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-install.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-mkdir.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-download.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-update.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-patch.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-configure.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-build.rule
+D:/Coding/libigl/external/.cache/libigl-imgui/CMakeFiles/0f37c096a7e7442474745c5d1406b172/libigl-imgui-download-test.rule

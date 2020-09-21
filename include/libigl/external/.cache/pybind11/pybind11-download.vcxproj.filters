@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\95cbdd6cb998859ce10bf26f34746322\pybind11-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\c6c683c32b85b8a56b6574bdb6fa6a67\pybind11-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\f21b17051e3dbe5595e23d0dfd32d050\pybind11-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\pybind11\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\pybind11\CMakeFiles\pybind11-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{09E745C4-AF56-317C-82C9-409D0731049F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

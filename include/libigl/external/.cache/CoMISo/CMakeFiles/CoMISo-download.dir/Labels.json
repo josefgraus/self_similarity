@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/2c3926135e7afe9222ff40652d0fd5bb/CoMISo-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/885b5ef1e5bc9eec57bed19bf925088d/CoMISo-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"CoMISo-download"
+		],
+		"name" : "CoMISo-download"
+	}
+}

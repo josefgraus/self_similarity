@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\1cf46bcd832bb75ae9ee99683bae3df9\embree-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\8353ce64d11c759e07a0357599f2dda7\embree-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\77694fc9971d0c4cbdfc2b427fb88600\embree-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\embree\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\embree\CMakeFiles\embree-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EB206B6C-A6BE-32D0-8AA7-2F39BC738457}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

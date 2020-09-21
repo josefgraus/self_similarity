@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\6fb7ea45edd027e7c6d8c657a4c3d591\test_data-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\8e155adff51fba17507ba31da57b692f\test_data-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\4c4f00b1e242e541bd3a735c90be88ec\test_data-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\test_data\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\test_data\CMakeFiles\test_data-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6600F5CE-3174-3ACB-888F-91A271F499C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

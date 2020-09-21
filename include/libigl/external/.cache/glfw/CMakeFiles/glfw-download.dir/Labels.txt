@@ -1,0 +1,14 @@
+# Target labels
+ glfw-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/glfw-download
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/1ec8aa7dce8741f04c744aceee9525e0/glfw-download.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/f610fa19b8a640d77455db1f9fe512f2/glfw-download-complete.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-install.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-mkdir.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-download.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-update.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-patch.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-configure.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-build.rule
+D:/Coding/libigl/external/.cache/glfw/CMakeFiles/d066764f1dd1ff9f39ee6449b134651f/glfw-download-test.rule

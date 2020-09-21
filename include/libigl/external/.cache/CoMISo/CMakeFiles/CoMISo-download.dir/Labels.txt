@@ -1,0 +1,14 @@
+# Target labels
+ CoMISo-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/CoMISo-download
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/2c3926135e7afe9222ff40652d0fd5bb/CoMISo-download.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/885b5ef1e5bc9eec57bed19bf925088d/CoMISo-download-complete.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-install.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-mkdir.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-download.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-update.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-patch.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-configure.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-build.rule
+D:/Coding/libigl/external/.cache/CoMISo/CMakeFiles/c80d1ee71c8769531ae8f0d24a95cbf5/CoMISo-download-test.rule

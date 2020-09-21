@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/triangle-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4f06bbcbdce9c5eef8c8aa6e0bbff392/triangle-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/404107117c16518aa6edda4a0e2c9d48/triangle-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/triangle/CMakeFiles/4021ea24debb3242710376aa461ad633/triangle-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"triangle-download"
+		],
+		"name" : "triangle-download"
+	}
+}

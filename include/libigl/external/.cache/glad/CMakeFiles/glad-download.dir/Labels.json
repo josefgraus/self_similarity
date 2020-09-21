@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/glad-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/d7ce7f0b7876647dfa94ae7c32013e83/glad-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/eacf649fe4329d45a74c23919d314e16/glad-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/glad/CMakeFiles/db958d5fe7606d6492781030fd665112/glad-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glad-download"
+		],
+		"name" : "glad-download"
+	}
+}

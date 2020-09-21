@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\src\nd_descriptor.cpp" />
+    <ClCompile Include="..\..\src\matching\geodesic_fan.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\heat_kernel_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\hks.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\shape_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\spectral_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\component.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\geometry.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\mesh.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\patch.cpp">
+      <Filter>geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\threshold.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\spherical_threshold.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\desire_set.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\quadratic_bump.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\segmentation\spectral_clustering.cpp">
+      <Filter>geometry\segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\algorithms\shortest_path.cpp">
+      <Filter>algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\segmentation\surface_by_numbers.cpp">
+      <Filter>geometry\segmentation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\benchmarks\model_manifest.cpp">
+      <Filter>benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\benchmarks\eigen_decomp.cpp">
+      <Filter>benchmarks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\wave_kernel_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\shape_diameter_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\sqlite\sqlite3.c">
+      <Filter>cache\sqlite3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\constrained_relation_solver.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\attributes\transfer\meshmatch.cpp">
+      <Filter>attributes\transfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\texture_signature.cpp">
+      <Filter>shape_signatures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilities\multithreading.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\self_similarity\self_similarity_map.cpp">
+      <Filter>matching\self_similarity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilities\ocl\shrUtils.cpp">
+      <Filter>utilities\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilities\ocl\cmd_arg_reader.cpp">
+      <Filter>utilities\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\utilities\ocl\oclUtils.cpp">
+      <Filter>utilities\ocl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\gui\control_display.cpp">
+      <Filter>gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\discrete_exponential_map.cpp">
+      <Filter>matching\parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\moebius_registration.cpp">
+      <Filter>matching\parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\surface_stroke.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\pt_unfolding.cpp">
+      <Filter>matching\parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\parameterization\curve_unrolling.cpp">
+      <Filter>matching\parameterization</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\geometry\tests\intersection.cpp">
+      <Filter>geometry\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\experiments\stroke_transfer_exp.cpp">
+      <Filter>experiments</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\stroke_transfer.cpp">
+      <Filter>matching</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\CatmullRom.cpp">
+      <Filter>utilities\catmull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Curve.cpp">
+      <Filter>utilities\catmull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Vector.cpp">
+      <Filter>utilities\catmull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Bezier.cpp">
+      <Filter>utilities\catmull</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\BSpline.cpp">
+      <Filter>utilities\catmull</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{f6b12c3b-89b7-45a7-af7a-ba7d2d3142a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matching">
+      <UniqueIdentifier>{63277f1c-4024-4bcd-bf89-60f0fd89c36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shape_signatures">
+      <UniqueIdentifier>{50d60420-20c4-4b79-8d38-8f50e599a0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry">
+      <UniqueIdentifier>{d24b3fc3-4c5b-4825-885b-2dde9f92803d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry\segmentation">
+      <UniqueIdentifier>{83ef2eb5-e5ff-4adb-8277-7e25578025fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithms">
+      <UniqueIdentifier>{988c8fd3-f06f-48ae-aabd-02844b2a6f8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{88afa659-9e9c-4941-97ee-28746eb107ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attributes">
+      <UniqueIdentifier>{afa689ba-8019-4d59-aee6-6db9de9db0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="attributes\transfer">
+      <UniqueIdentifier>{96e32773-29f7-4d03-8c1f-b9f855707d8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="benchmarks">
+      <UniqueIdentifier>{34e8a4f6-32c4-4622-81ea-fd50cab6ed4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cache">
+      <UniqueIdentifier>{b9628fa6-5913-4fcc-afd1-a2ac428c149b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cache\sqlite3">
+      <UniqueIdentifier>{fc1ec1d8-36c4-481d-acbc-bceb5d582415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matching\self_similarity">
+      <UniqueIdentifier>{e0a9ffba-6216-4d38-86f8-cc17ea64507b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\ocl">
+      <UniqueIdentifier>{8f5accd5-24a9-481b-8696-8b73095d2cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gui">
+      <UniqueIdentifier>{323b5ee8-6a39-43cf-84c2-fd89cb638d0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="matching\parameterization">
+      <UniqueIdentifier>{363a9b4b-15f8-435e-8b02-6c09a014177a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geometry\tests">
+      <UniqueIdentifier>{d8da8d27-0e76-4bf3-b0a5-a2aa57b867bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="experiments">
+      <UniqueIdentifier>{003c3558-8d0e-4be1-8794-967540da80e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities\catmull">
+      <UniqueIdentifier>{75d696f3-4e84-43a6-a70d-fa7e27b4b9a1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\utilities\timer.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilities\eigen_read_write_binary.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\geodesic_fan.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\heat_kernel_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\hks.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\shape_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\spectral_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\component.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\geometry.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\mesh.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\patch.h">
+      <Filter>geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilities\units.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\threshold.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\spherical_threshold.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\desire_set.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\quadratic_bump.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\segmentation\spectral_clustering.h">
+      <Filter>geometry\segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\algorithms\shortest_path.h">
+      <Filter>algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\segmentation\surface_by_numbers.h">
+      <Filter>geometry\segmentation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\benchmarks\model_manifest.h">
+      <Filter>benchmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\benchmarks\eigen_decomp.h">
+      <Filter>benchmarks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\wave_kernel_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\shape_diameter_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilities\gen_id.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\attributes\transfer\meshmatch.h">
+      <Filter>attributes\transfer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\shape_signatures\texture_signature.h">
+      <Filter>shape_signatures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\utilities\multithreading.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\constrained_relation_solver.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\self_similarity\self_similarity_map.h">
+      <Filter>matching\self_similarity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\gui\control_display.h">
+      <Filter>gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\parameterization\discrete_exponential_map.h">
+      <Filter>matching\parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\parameterization\moebius_registration.h">
+      <Filter>matching\parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\surface_stroke.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\parameterization\pt_unfolding.h">
+      <Filter>matching\parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\parameterization\curve_unrolling.h">
+      <Filter>matching\parameterization</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\geometry\tests\intersection.h">
+      <Filter>geometry\tests</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\experiments\stroke_transfer_exp.h">
+      <Filter>experiments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\matching\stroke_transfer.h">
+      <Filter>matching</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="addons\eigen.natvis">
+      <Filter>addons</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>

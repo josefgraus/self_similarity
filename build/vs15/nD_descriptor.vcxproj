@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Bezier.cpp" />
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\BSpline.cpp" />
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\CatmullRom.cpp" />
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Curve.cpp" />
+    <ClCompile Include="..\..\include\cpp-spline\spline\src\main\cpp\Vector.cpp" />
+    <ClCompile Include="..\..\include\sqlite\sqlite3.c" />
+    <ClCompile Include="..\..\src\algorithms\shortest_path.cpp" />
+    <ClCompile Include="..\..\src\attributes\transfer\meshmatch.cpp" />
+    <ClCompile Include="..\..\src\benchmarks\eigen_decomp.cpp" />
+    <ClCompile Include="..\..\src\benchmarks\model_manifest.cpp" />
+    <ClCompile Include="..\..\src\experiments\stroke_transfer_exp.cpp" />
+    <ClCompile Include="..\..\src\geometry\component.cpp" />
+    <ClCompile Include="..\..\src\geometry\geometry.cpp" />
+    <ClCompile Include="..\..\src\geometry\mesh.cpp" />
+    <ClCompile Include="..\..\src\geometry\patch.cpp" />
+    <ClCompile Include="..\..\src\geometry\segmentation\spectral_clustering.cpp" />
+    <ClCompile Include="..\..\src\geometry\segmentation\surface_by_numbers.cpp" />
+    <ClCompile Include="..\..\src\geometry\tests\intersection.cpp" />
+    <ClCompile Include="..\..\src\gui\control_display.cpp" />
+    <ClCompile Include="..\..\src\matching\constrained_relation_solver.cpp" />
+    <ClCompile Include="..\..\src\matching\desire_set.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\geodesic_fan.cpp" />
+    <ClCompile Include="..\..\src\matching\parameterization\curve_unrolling.cpp" />
+    <ClCompile Include="..\..\src\matching\parameterization\discrete_exponential_map.cpp" />
+    <ClCompile Include="..\..\src\matching\parameterization\moebius_registration.cpp" />
+    <ClCompile Include="..\..\src\matching\parameterization\pt_unfolding.cpp" />
+    <ClCompile Include="..\..\src\matching\quadratic_bump.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\matching\self_similarity\self_similarity_map.cpp" />
+    <ClCompile Include="..\..\src\matching\spherical_threshold.cpp" />
+    <ClCompile Include="..\..\src\matching\stroke_transfer.cpp" />
+    <ClCompile Include="..\..\src\matching\surface_stroke.cpp" />
+    <ClCompile Include="..\..\src\matching\threshold.cpp" />
+    <ClCompile Include="..\..\src\nd_descriptor.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\heat_kernel_signature.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\hks.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\src\shape_signatures\shape_diameter_signature.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\shape_signature.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\spectral_signature.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\texture_signature.cpp" />
+    <ClCompile Include="..\..\src\shape_signatures\wave_kernel_signature.cpp" />
+    <ClCompile Include="..\..\src\utilities\multithreading.cpp" />
+    <ClCompile Include="..\..\src\utilities\ocl\cmd_arg_reader.cpp" />
+    <ClCompile Include="..\..\src\utilities\ocl\oclUtils.cpp" />
+    <ClCompile Include="..\..\src\utilities\ocl\shrUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\algorithms\shortest_path.h" />
+    <ClInclude Include="..\..\src\attributes\transfer\meshmatch.h" />
+    <ClInclude Include="..\..\src\benchmarks\eigen_decomp.h" />
+    <ClInclude Include="..\..\src\benchmarks\model_manifest.h" />
+    <ClInclude Include="..\..\src\experiments\stroke_transfer_exp.h" />
+    <ClInclude Include="..\..\src\geometry\component.h" />
+    <ClInclude Include="..\..\src\geometry\geometry.h" />
+    <ClInclude Include="..\..\src\geometry\mesh.h" />
+    <ClInclude Include="..\..\src\geometry\patch.h" />
+    <ClInclude Include="..\..\src\geometry\segmentation\spectral_clustering.h" />
+    <ClInclude Include="..\..\src\geometry\segmentation\surface_by_numbers.h" />
+    <ClInclude Include="..\..\src\geometry\tests\intersection.h" />
+    <ClInclude Include="..\..\src\gui\control_display.h" />
+    <ClInclude Include="..\..\src\matching\constrained_relation_solver.h" />
+    <ClInclude Include="..\..\src\matching\desire_set.h" />
+    <ClInclude Include="..\..\src\matching\geodesic_fan.h" />
+    <ClInclude Include="..\..\src\matching\parameterization\curve_unrolling.h" />
+    <ClInclude Include="..\..\src\matching\parameterization\discrete_exponential_map.h" />
+    <ClInclude Include="..\..\src\matching\parameterization\moebius_registration.h" />
+    <ClInclude Include="..\..\src\matching\parameterization\pt_unfolding.h" />
+    <ClInclude Include="..\..\src\matching\quadratic_bump.h" />
+    <ClInclude Include="..\..\src\matching\self_similarity\self_similarity_map.h" />
+    <ClInclude Include="..\..\src\matching\spherical_threshold.h" />
+    <ClInclude Include="..\..\src\matching\stroke_transfer.h" />
+    <ClInclude Include="..\..\src\matching\surface_stroke.h" />
+    <ClInclude Include="..\..\src\matching\threshold.h" />
+    <ClInclude Include="..\..\src\shape_signatures\heat_kernel_signature.h" />
+    <ClInclude Include="..\..\src\shape_signatures\hks.h" />
+    <ClInclude Include="..\..\src\shape_signatures\shape_diameter_signature.h" />
+    <ClInclude Include="..\..\src\shape_signatures\shape_signature.h" />
+    <ClInclude Include="..\..\src\shape_signatures\spectral_signature.h" />
+    <ClInclude Include="..\..\src\shape_signatures\texture_signature.h" />
+    <ClInclude Include="..\..\src\shape_signatures\wave_kernel_signature.h" />
+    <ClInclude Include="..\..\src\utilities\eigen_read_write_binary.h" />
+    <ClInclude Include="..\..\src\utilities\gen_id.h" />
+    <ClInclude Include="..\..\src\utilities\multithreading.h" />
+    <ClInclude Include="..\..\src\utilities\timer.h" />
+    <ClInclude Include="..\..\src\utilities\units.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="addons\eigen.natvis" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FC33159C-31C4-4C47-8F74-325037CBC0C6}</ProjectGuid>
+    <RootNamespace>nD_descriptor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include/libigl/include;$(SolutionDir)../../include/libigl/external/eigen;$(SolutionDir)../../include/libigl/external/glfw/include;$(SolutionDir)../../include/libigl/external/stb;$(SolutionDir)../../include/libigl/external;$(SolutionDir)../../include/libigl/external/imgui/examples;$(SolutionDir)../../include/libigl/external/libigl-imgui;$(SolutionDir)../../include/libigl/external/imgui;$(SolutionDir)../../include/libigl/external/glad/include;$(SolutionDir)../../src;$(SolutionDir)../../include;$(SolutionDir)../../include/opencl;$(SolutionDir)../../include/nvidia;$(SolutionDir)../../include/ctpl;$(SolutionDir)../../include/mobreg;$(SolutionDir)../../include/mobreg/include;$(SolutionDir)../../include/mathtoolbox;$(SolutionDir)../../include/cpp-spline/spline/src/main/cpp</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalOptions>/bigobj /FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencl.lib;oclUtils64.lib;opengl32.lib;glfw3.lib;glew.lib;nanogui.lib;maxflow.lib;Shlwapi.lib;%(AdditionalDependencies);SphereMap.lib;Soft.lib;libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;imgui.lib;mathtoolbox.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib/vc14/x64/debug;%(AdditionalLibraryDirectories);$(SolutionDir)../../include/mobreg/;$(SolutionDir)../../include/mobreg/include</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)..\..\bin\*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>false</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)../../include/libigl/include;$(SolutionDir)../../include/libigl/external/eigen;$(SolutionDir)../../include/libigl/external/glfw/include;$(SolutionDir)../../include/libigl/external/stb;$(SolutionDir)../../include/libigl/external;$(SolutionDir)../../include/libigl/external/imgui/examples;$(SolutionDir)../../include/libigl/external/libigl-imgui;$(SolutionDir)../../include/libigl/external/imgui;$(SolutionDir)../../include/libigl/external/glad/include;$(SolutionDir)../../src;$(SolutionDir)../../include;$(SolutionDir)../../include/opencl;$(SolutionDir)../../include/nvidia;$(SolutionDir)../../include/ctpl;$(SolutionDir)../../include/mobreg;$(SolutionDir)../../include/mobreg/include;$(SolutionDir)../../include/mathtoolbox;$(SolutionDir)../../include/cpp-spline/spline/src/main/cpp</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <AdditionalOptions>/bigobj /FS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>opengl32.lib;glfw3.lib;glew.lib;nanogui.lib;maxflow.lib;Shlwapi.lib;opencl.lib;oclUtils64.lib;%(AdditionalDependencies);SphereMap.lib;Soft.lib;libfftw3-3.lib;libfftw3f-3.lib;libfftw3l-3.lib;imgui.lib;mathtoolbox.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)../../lib/vc14/x64/release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)..\..\bin\*" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

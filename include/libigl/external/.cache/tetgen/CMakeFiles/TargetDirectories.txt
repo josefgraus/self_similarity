@@ -1,0 +1,3 @@
+D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/tetgen-download.dir
+D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/ALL_BUILD.dir
+D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/ZERO_CHECK.dir

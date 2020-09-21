@@ -1,0 +1,14 @@
+# Target labels
+ embree-download
+# Source files and their labels
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/embree-download
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/77694fc9971d0c4cbdfc2b427fb88600/embree-download.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/8353ce64d11c759e07a0357599f2dda7/embree-download-complete.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-install.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-mkdir.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-download.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-update.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-patch.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-configure.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-build.rule
+D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-test.rule

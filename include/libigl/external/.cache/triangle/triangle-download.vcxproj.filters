@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4021ea24debb3242710376aa461ad633\triangle-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\404107117c16518aa6edda4a0e2c9d48\triangle-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\4f06bbcbdce9c5eef8c8aa6e0bbff392\triangle-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\triangle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\triangle\CMakeFiles\triangle-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C0BFE746-1D55-3B07-8B06-8260A1F8A980}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

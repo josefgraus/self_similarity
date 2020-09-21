@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/tutorial_data-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/9c0bbdb253cc513f2122911d9894b0a6/tutorial_data-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/e53a9a9e63b607e9ab7b42d3af6cf73d/tutorial_data-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tutorial_data/CMakeFiles/907d0633f0470f8c93f702b43ae33d48/tutorial_data-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tutorial_data-download"
+		],
+		"name" : "tutorial_data-download"
+	}
+}

@@ -1,0 +1,6 @@
+[submodule "include/opencl"]
+	path = include/opencl
+	url = https://github.com/josefgraus/OpenCL-Headers.git
+[submodule "include/ctpl"]
+	path = include/ctpl
+	url = https://github.com/josefgraus/CTPL.git

@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/imgui-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/4a3ceb0f8296779c79492d727d3759d9/imgui-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/99109e9f0ff080abfa8d98fde1bbfcd7/imgui-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/imgui/CMakeFiles/ffd581d35bc736b8692c436da3eaf096/imgui-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-download"
+		],
+		"name" : "imgui-download"
+	}
+}

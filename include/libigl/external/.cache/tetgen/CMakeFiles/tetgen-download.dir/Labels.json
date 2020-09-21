@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/tetgen-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/af5b8f4409ce777f94c3c88cb863e422/tetgen-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/3131c9dd4528f7591cfaf3507d16981c/tetgen-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/tetgen/CMakeFiles/7d4052f385be15aa08d327831b7bf891/tetgen-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tetgen-download"
+		],
+		"name" : "tetgen-download"
+	}
+}

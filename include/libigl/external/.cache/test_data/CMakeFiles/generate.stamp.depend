@@ -1,0 +1,17 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeDetermineSystem.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeSystem.cmake.in
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/ExternalProject.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/RepositoryInfo.txt.in
+D:/Coding/libigl/external/.cache/test_data/CMakeFiles/3.13.2/CMakeSystem.cmake
+D:/Coding/libigl/external/.cache/test_data/CMakeLists.txt
+D:/Coding/libigl/external/.cache/test_data/test_data-download-prefix/tmp/test_data-download-cfgcmd.txt.in

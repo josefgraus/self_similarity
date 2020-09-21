@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\c9bd5da35b3915328c3feb93057886e4\googletest-download-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\0bb6bee6a3a56b11ce2e4ecdf00a7d37\googletest-download-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\d0963ac6d9b1e72a3c26835cc041ae25\googletest-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Coding\libigl\external\.cache\googletest\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Coding\libigl\external\.cache\googletest\CMakeFiles\googletest-download" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{87FB3745-D5B9-332D-BD14-4489FD3D7B0A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

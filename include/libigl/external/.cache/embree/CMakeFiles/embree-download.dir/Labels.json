@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/embree-download"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/77694fc9971d0c4cbdfc2b427fb88600/embree-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/8353ce64d11c759e07a0357599f2dda7/embree-download-complete.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-install.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-mkdir.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-download.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-update.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-patch.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-configure.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-build.rule"
+		},
+		{
+			"file" : "D:/Coding/libigl/external/.cache/embree/CMakeFiles/1cf46bcd832bb75ae9ee99683bae3df9/embree-download-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"embree-download"
+		],
+		"name" : "embree-download"
+	}
+}
